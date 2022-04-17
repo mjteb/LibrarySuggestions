@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 public class CsvWriter {
     private final static String MESSAGE_ENTER_VALID_COLLECTION = "Please enter a valid collection";
-    private final static String CSV = "CSV";
+    private final static String CSV = ".csv";
     private final static String CSV_COLUMNS = "Isbn,Title,Author,Publication date,Price,Format,Library member card number,Position in line to request document,Date of submission";
     private final static String VIRGULE = ",";
     private final static String ERROR_MEMBER_ALREADY_EXISTS = "Library member already submitted a suggestion for the following document.";
