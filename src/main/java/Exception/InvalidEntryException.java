@@ -1,4 +1,4 @@
-package LibrarySuggestionApplication;
+package Exception;
 
 public class InvalidEntryException extends RuntimeException{
     String message;
